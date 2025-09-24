@@ -14,7 +14,7 @@
             <li><Link to="/">Request a Mission</Link></li>   
 
         </nav>
-    )
+    );
  }
 
  export default NavBar

@@ -1,0 +1,9 @@
+.homepage-container{
+    background-size: cover; /* Adjust to cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    /* Add any additional styles you need for the container */
+    min-height: 100vh; /* Set the minimum height to fill the viewport */
+    background-color: rgba(6, 21, 84, 0.3);
+    /* background-blend-mode: multiply; */
+}

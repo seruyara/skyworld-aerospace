@@ -1,10 +1,13 @@
 import React from "react";
+import './Homepage.css'
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 function Homepage(){
     return(
-        <div>
+        <section>
             <NavBar/>
+            <div className="homepage-container">
             <h1>skyworld Aerospace Limited Company</h1>
             <h2>helicopter Rental Services</h2>
             <div className="our">
@@ -34,16 +37,10 @@ function Homepage(){
                     </ul>
                 </div>                
             </div>
-            <footer>
-                <div className="contact us">
-                <p>Contact Us</p>
-                    <ul>
-                        <li></li>
-                    </ul>
-                </div>     
-            </footer>
         </div>
-    )
+        <Footer/>
+        </section>
+    );
 }
 
 export default Homepage
