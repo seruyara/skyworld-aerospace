@@ -22,7 +22,8 @@
   .nav-links {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 6rem;
+    box-sizing: border-box;
   }
   
   .nav-links a {
@@ -33,12 +34,12 @@
   .nav-links a:hover {
     color: #97fb61;
     border-radius: 12PX;
-
   }
 
 .button{
     border: 2px solid yellowgreen;
     border-radius: 12PX;
     padding: 3PX;
+    /* background-color: yellowgreen; */
 }
   
